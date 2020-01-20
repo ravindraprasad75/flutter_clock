@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 import 'package:flutter/material.dart';
-
+import 'package:flutter/services.dart';
 import 'model.dart';
 
 /// Returns a clock [Widget] with [ClockModel].
@@ -187,6 +187,11 @@ class _ClockCustomizerState extends State<ClockCustomizer> {
         ),
       ),
     );
+
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.landscapeRight,
+    ]);
 
     return MaterialApp(
       theme: ThemeData.light(),

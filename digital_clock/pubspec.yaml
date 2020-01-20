@@ -11,6 +11,9 @@ dependencies:
   flutter_clock_helper:
     path: ../flutter_clock_helper
   cupertino_icons: ^0.1.2
+  flare_flutter: ^1.8.3
+  weather_icons: 2.0.0
+
 
 dev_dependencies:
   flutter_test:
@@ -22,3 +25,18 @@ flutter:
     - family: PressStart2P
       fonts:
         - asset: third_party/PressStart2P-Regular.ttf
+    - family: PatuaOne
+      fonts:
+        - asset: third_party/Patua_One/PatuaOne-Regular.ttf
+    - family: NoticiaText
+      fonts:
+        - asset: third_party/Noticia_Text/NoticiaText-Regular.ttf
+        - asset: third_party/Noticia_Text/NoticiaText-Bold.ttf
+          weight: 700
+        - asset: third_party/Noticia_Text/NoticiaText-Italic.ttf
+          style: italic
+        - asset: third_party/Noticia_Text/NoticiaText-BoldItalic.ttf
+          style: italic
+          weight: 700
+  assets:
+   - assets/

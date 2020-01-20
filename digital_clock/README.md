@@ -9,3 +9,5 @@ See the [Analog Clock](../analog_clock) if you'd like an example that displays t
 <img src='digital_dark.png' width='350'>
 
 <img src='digital_light.png' width='350'>
+
+[Textures](https://www.solarsystemscope.com/textures/)
